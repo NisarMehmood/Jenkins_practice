@@ -1,4 +1,4 @@
-import ATM from practice
+from practice import ATM
 
 
 def test1():
