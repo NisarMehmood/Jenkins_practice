@@ -1,10 +1,13 @@
 Import ATM from practice
 
 
-def test():
-  atm = ATM(100)  
+def test1():
+  atm = ATM(100)
+  assert atm.withdraw() == 0
   
-  assert atm.withdraw()
+def test2():
+  atm = ATM(100)
+  assert atm.deposit(100) == 200  
 
 
-atm.deposit(100)
+
