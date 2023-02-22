@@ -5,6 +5,8 @@ class ATM:
 
     def withdraw(self):
         self.balance = 0
+        return self.balance
 
     def deposit(self, amount):
         self.balance += amount
+        return self.balance
